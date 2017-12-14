@@ -18,5 +18,5 @@ class ProductConfig(DevConfig):
     '''
     DEBUG = False
     #sqlite database file path
-    path = os.path.john(os.getcwd(),'rmon.db').replace('\\','/')
+    path = os.path.join(os.getcwd(),'rmon.db').replace('\\','/')
     SQLALCHEMY_DATABASE_URI = 'sqlite:///%s' % path
