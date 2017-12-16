@@ -3,6 +3,8 @@
 """
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime
+from redis import StrictRedis,RedisError
+from rmon.common.rest import RestException
 
 db = SQLAlchemy()
 
@@ -21,6 +23,10 @@ class Server(db.Model):
     updated_at = db.Column(db.DateTime,default=datetime.utcnow)
     created_at = db.Column(db.DateTime,default=datetime.utcnow)
 
+    @property
+    def redis(self):
+        return StrictRedis(host=self.host,port=self.port,password=self.password)
+
     def __repr__(self):
         return '<Server(name=%s)>' % self.name
     def save(self):
@@ -36,3 +42,15 @@ class Server(db.Model):
         """
         db.session.delete(self)
         db.session.commit()
+
+    def ping(self):
+        try:
+            return self.server.ping()
+        except RedisError:
+            raise RestException(400,'Redis server %s can not connected' % self.host)
+
+    def get_metrics(self):
+        try:
+            return self.redis.info()
+        except RedisError:
+            raise RestException(400,'Redis server %s can not connected' % self.host) 
