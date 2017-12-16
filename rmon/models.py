@@ -45,7 +45,7 @@ class Server(db.Model):
 
     def ping(self):
         try:
-            return self.server.ping()
+            return self.redis.ping()
         except RedisError:
             raise RestException(400,'Redis server %s can not connected' % self.host)
 
