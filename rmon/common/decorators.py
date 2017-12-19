@@ -8,6 +8,7 @@ class ObjectMustBeExist:
 	def __call__(self,func):
 		@wraps(func)
 		def wrapper(*args,**kwargs):
+			object_id = kwargs.get('object_id')
 			if object_id is None:
 				raise RestException(404,'object not exist')
 			obj = self.object_class.query.get(object_id)
