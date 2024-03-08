@@ -1,55 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2024-01-22T02:44:09.608Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="iO7Fb-Ttc1vyAbdqFEy4" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-08T01:49:40.968Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="8HRO4TDJA6KniRq7nzPt" version="22.1.21" type="github">
   <diagram name="第 1 页" id="hfofDpsRbp_3FvL_8h9O">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="lmvX0gw8M-BZvWQ2kCPO-15" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lmvX0gw8M-BZvWQ2kCPO-15" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="318" width="230" height="153.85" as="geometry" />
         </mxCell>
-        <mxCell id="lmvX0gw8M-BZvWQ2kCPO-14" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lmvX0gw8M-BZvWQ2kCPO-14" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="90" width="200" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="lmvX0gw8M-BZvWQ2kCPO-13" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="lmvX0gw8M-BZvWQ2kCPO-13" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="314.38" width="230" height="153.85" as="geometry" />
         </mxCell>
-        <mxCell id="lmvX0gw8M-BZvWQ2kCPO-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="lmvX0gw8M-BZvWQ2kCPO-1" target="lmvX0gw8M-BZvWQ2kCPO-2">
+        <mxCell id="lmvX0gw8M-BZvWQ2kCPO-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="lmvX0gw8M-BZvWQ2kCPO-1" target="lmvX0gw8M-BZvWQ2kCPO-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lmvX0gw8M-BZvWQ2kCPO-1" value="" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
+        <mxCell id="lmvX0gw8M-BZvWQ2kCPO-1" value="" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" parent="1" vertex="1">
           <mxGeometry x="500" y="359" width="60" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="lmvX0gw8M-BZvWQ2kCPO-2" value="运营商专线网络" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="lmvX0gw8M-BZvWQ2kCPO-2" value="运营商专线网络" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/internet_cloud.svg;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="320" y="356.3" width="116.98" height="73.7" as="geometry" />
         </mxCell>
-        <mxCell id="lmvX0gw8M-BZvWQ2kCPO-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="lmvX0gw8M-BZvWQ2kCPO-3" target="lmvX0gw8M-BZvWQ2kCPO-2">
+        <mxCell id="lmvX0gw8M-BZvWQ2kCPO-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="lmvX0gw8M-BZvWQ2kCPO-3" target="lmvX0gw8M-BZvWQ2kCPO-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lmvX0gw8M-BZvWQ2kCPO-3" value="" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
+        <mxCell id="lmvX0gw8M-BZvWQ2kCPO-3" value="" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" parent="1" vertex="1">
           <mxGeometry x="348" y="240" width="60" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="lmvX0gw8M-BZvWQ2kCPO-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="lmvX0gw8M-BZvWQ2kCPO-4" target="lmvX0gw8M-BZvWQ2kCPO-2">
+        <mxCell id="lmvX0gw8M-BZvWQ2kCPO-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" parent="1" source="lmvX0gw8M-BZvWQ2kCPO-4" target="lmvX0gw8M-BZvWQ2kCPO-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lmvX0gw8M-BZvWQ2kCPO-4" value="" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" vertex="1" parent="1">
+        <mxCell id="lmvX0gw8M-BZvWQ2kCPO-4" value="" style="image;html=1;image=img/lib/clip_art/networking/Router_Icon_128x128.png" parent="1" vertex="1">
           <mxGeometry x="190" y="359" width="60" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="lmvX0gw8M-BZvWQ2kCPO-9" value="系统集群" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/server_farm.svg;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="lmvX0gw8M-BZvWQ2kCPO-9" value="系统集群" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/server_farm.svg;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="610" y="356.3" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="lmvX0gw8M-BZvWQ2kCPO-10" value="灾备系统" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/cluster_server.svg;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="lmvX0gw8M-BZvWQ2kCPO-10" value="灾备系统" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/cluster_server.svg;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="343" y="140" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="lmvX0gw8M-BZvWQ2kCPO-11" value="办公区终端" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.workstation_pc;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="lmvX0gw8M-BZvWQ2kCPO-11" value="办公区终端" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.workstation_pc;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="90" y="368.7" width="50" height="60.3" as="geometry" />
         </mxCell>
-        <mxCell id="lmvX0gw8M-BZvWQ2kCPO-16" value="生产数据中心" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="lmvX0gw8M-BZvWQ2kCPO-16" value="生产数据中心" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="485" y="326.3" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lmvX0gw8M-BZvWQ2kCPO-17" value="办公区机房网络" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="lmvX0gw8M-BZvWQ2kCPO-17" value="办公区机房网络" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="157" y="326.3" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lmvX0gw8M-BZvWQ2kCPO-18" value="异地灾备中心" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="lmvX0gw8M-BZvWQ2kCPO-18" value="异地灾备中心" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="360" y="95" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
